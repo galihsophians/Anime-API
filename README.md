@@ -2,11 +2,11 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,express,nodejs,docker" />
   <br/>
-  <a href="https://api-anime-rouge.vercel.app"><kbd>api-anime-rouge.vercel.app</kbd></a>
+  <a href="https://gsanime.vercel.app"><kbd>api-anime-rouge.vercel.app</kbd></a>
 </p>
 <br/><br/>
 
-Check it out at <a href="https://api-anime-rouge.vercel.app"><kbd>api-anime-rouge.vercel.app</kbd></a>.
+Check it out at <a href="https://gsanime.vercel.app"><kbd>api-anime-rouge.vercel.app</kbd></a>.
 
 <break>
 
@@ -33,13 +33,13 @@ kickassanime    | <b>IN FUTURE</b>
 #### Endpoint
 
 ```url
-https://api-anime-rouge.vercel.app/aniwatch/
+https://gsanime.vercel.app/aniwatch/
 ```
 
 #### Request sample
 
 ```typescript
-const resp = await fetch("https://api-anime-rouge.vercel.app/aniwatch/");
+const resp = await fetch("https://gsanime.vercel.app/aniwatch/");
 const data = await resp.json();
 console.log(data);
 ```
@@ -140,7 +140,7 @@ console.log(data);
 #### Endpoint
 
 ```url
-https://api-anime-rouge.vercel.app/aniwatch/az-list?page=${page}
+https://gsanime.vercel.app/aniwatch/az-list?page=${page}
 ```
 
 #### Query Parameters
@@ -153,7 +153,7 @@ https://api-anime-rouge.vercel.app/aniwatch/az-list?page=${page}
 #### Request sample
 
 ```typescript
-const resp = await fetch("https://api-anime-rouge.vercel.app/aniwatch/az-list?page=69");
+const resp = await fetch("https://gsanime.vercel.app/aniwatch/az-list?page=69");
 const data = await resp.json();
 console.log(data);
 ```
@@ -182,7 +182,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/anime/:id
+https://gsanime.vercel.app/aniwatch/anime/:id
 ```
 
 #### Query Parameters
@@ -198,7 +198,7 @@ https://api-anime-rouge.vercel.app/aniwatch/anime/:id
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/anime/jujutsu-kaisen-2nd-season-18413"
+  "https://gsanime.vercel.app/aniwatch/anime/jujutsu-kaisen-2nd-season-18413"
 );
 const data = await res.json();
 console.log(data);
@@ -296,7 +296,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/search?keyword=$(query)&page=$(page)
+https://gsanime.vercel.app/aniwatch/search?keyword=$(query)&page=$(page)
 ```
 
 #### Query Parameters
@@ -312,7 +312,7 @@ https://api-anime-rouge.vercel.app/aniwatch/search?keyword=$(query)&page=$(page)
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/search?keyword=one+piece&page=1"
+  "https://gsanime.vercel.app/aniwatch/search?keyword=one+piece&page=1"
 );
 const data = await res.json();
 console.log(data);
@@ -363,7 +363,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/:category?page=$(page)
+https://gsanime.vercel.app/aniwatch/:category?page=$(page)
 ```
 
 #### Query Parameters
@@ -390,7 +390,7 @@ https://api-anime-rouge.vercel.app/aniwatch/:category?page=$(page)
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/ona?page=1"
+  "https://gsanime.vercel.app/aniwatch/ona?page=1"
 );
 const data = await res.json();
 console.log(data);
@@ -471,7 +471,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/episodes/:id
+https://gsanime.vercel.app/aniwatch/episodes/:id
 ```
 
 #### Query Parameters
@@ -491,7 +491,7 @@ https://api-anime-rouge.vercel.app/aniwatch/episodes/:id
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/episodes/one-piece-100"
+  "https://gsanime.vercel.app/aniwatch/episodes/one-piece-100"
 );
 const data = await res.json();
 console.log(data);
@@ -519,7 +519,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/servers?id=${id}
+https://gsanime.vercel.app/aniwatch/servers?id=${id}
 ```
 
 #### Query Parameters
@@ -549,7 +549,7 @@ one-piece-100?ep=84802
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/servers?id=one-piece-100?ep=84802"
+  "https://gsanime.vercel.app/aniwatch/servers?id=one-piece-100?ep=84802"
 );
 const data = await res.json();
 console.log(data);
@@ -584,7 +584,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/anime/episode-srcs?id={episodeId}&server={server}&category={category}
+https://gsanime.vercel.app/anime/episode-srcs?id={episodeId}&server={server}&category={category}
 ```
 
 #### Query Parameters
@@ -599,7 +599,7 @@ https://api-anime-rouge.vercel.app/anime/episode-srcs?id={episodeId}&server={ser
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/episode-srcs?id=solo-leveling-18718?ep=120094&server=vidstreaming&category=sub"
+  "https://gsanime.vercel.app/aniwatch/episode-srcs?id=solo-leveling-18718?ep=120094&server=vidstreaming&category=sub"
 );
 const data = await resp.json();
 console.log(data);
@@ -647,7 +647,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/recent-releases?page=${page}
+https://gsanime.vercel.app/gogoanime/recent-releases?page=${page}
 ```
 <break>
 
@@ -663,7 +663,7 @@ https://api-anime-rouge.vercel.app/gogoanime/recent-releases?page=${page}
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/recent-releases"
+  "https://gsanime.vercel.app/gogoanime/recent-releases"
 );
 const data = await res.json();
 console.log(data);
@@ -693,7 +693,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/new-seasons?page=${page}
+https://gsanime.vercel.app/gogoanime/new-seasons?page=${page}
 ```
 
 <break>
@@ -710,7 +710,7 @@ https://api-anime-rouge.vercel.app/gogoanime/new-seasons?page=${page}
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/new-seasons"
+  "https://gsanime.vercel.app/gogoanime/new-seasons"
 );
 const data = await res.json();
 console.log(data);
@@ -738,7 +738,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/popular?page=${page}
+https://gsanime.vercel.app/gogoanime/popular?page=${page}
 ```
 
 <break>
@@ -755,7 +755,7 @@ https://api-anime-rouge.vercel.app/gogoanime/popular?page=${page}
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/popular"
+  "https://gsanime.vercel.app/gogoanime/popular"
 );
 const data = await res.json();
 console.log(data);
@@ -785,7 +785,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/anime-movies?page=${page}
+https://gsanime.vercel.app/gogoanime/anime-movies?page=${page}
 ```
 
 <break>
@@ -802,7 +802,7 @@ https://api-anime-rouge.vercel.app/gogoanime/anime-movies?page=${page}
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/anime-movies"
+  "https://gsanime.vercel.app/gogoanime/anime-movies"
 );
 const data = await res.json();
 console.log(data);
@@ -830,7 +830,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/top-airing?page=${page}
+https://gsanime.vercel.app/gogoanime/top-airing?page=${page}
 ```
 
 <break>
@@ -847,7 +847,7 @@ https://api-anime-rouge.vercel.app/gogoanime/top-airing?page=${page}
 
 ```javascript
 const resp = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/top-airing"
+  "https://gsanime.vercel.app/gogoanime/top-airing"
 );
 const data = await res.json();
 console.log(data);
