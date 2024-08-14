@@ -12,7 +12,7 @@ Check it out at <a href="https://api-anime-rouge.vercel.app"><kbd>api-anime-roug
 
 ## ⚡ Web Scraping Status
 
-Anime Websites  |    STATUS
+Anime Websites  |    STATUS 
 --------------  | -------------
 aniwatch        | <b>DONE</b>
 gogoanime       | <b>WORKING ON IT</b>
